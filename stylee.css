@@ -1,142 +1,177 @@
- /* body
-{
-    background-color: aquamarine;
-     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREW6NqfDWyPHSB_JzwVlp05jlwyVu_meUAoQ&usqp=CAU);
-    background-repeat: no-repeat;
-    background-size: cover; 
-} */
-
-.img-1
-{
-    width: 300px;
-    height: 300px;
-    float: right;
-}
-
-.flex-item
-{   
-  display: flex;
-  
-  word-wrap: break-word;
-  font-size: 40px;
-  
-    
-}
-
-button{
-    color: blueviolet;
-    font-size: 15px;
-    margin: 20px;
-    padding-left: 30px;
-}
-
-h1
-{
-    color: rgb(7, 23, 39);
-    font-size: 20px;
-    margin: 20px;
-    opacity: 0.6;
-    /* padding: 10px; */
-    /* width: 150px; */
-    /* height: 100px; */
-    /* width: 50px;
-    height: 50px;
-    float: right;
-    margin: 25px; */
-}
-
-.flex-item1
-{
-opacity: 0.1;
-color: rgb(52, 189, 52);
-margin: 10px;
-}
-
-.flex-item2
-{
-    opacity: 0.3;
-    color: rgb(255, 0, 0);
-    margin: 10px;
-}
-
-.flex-item3
-{
-    opacity: 0.6;
-    color: darkblue;
-    margin: 10px;
-}
-
-.flex-item4
-{
-    opacity: 1;
-    color: black;
-    margin: 10px;
-}
-.img-item2
-{
-    width: 250px;
-    height: 250px;
-    float: right;
-    margin: 25px;
-
-}
-
-.make-red
+ /* .h1-class
 {
     color: red;
-    font-size: 40px;
-    border: 5px dotted rebeccapurple;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 20px;
-    
 }
-
-.make-greeen
-{
-    color: rgb(52, 189, 52);
-    display: flex;
-    font-size: 40px;
-    border: 5px blue dashed;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 20px;
+.h2-class{color: red;
 }
-
-.make-orange
-{
-    color: orangered;
-    display: flex;
-    font-size: 40px;
-    border: 5px  blue solid;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 20px;
+.h3-class{
+    color: red;
 }
-
-.flexe1-item
-{
-    display: flex;
-    
-}
+h6{color: red;
+} */
 
 #box
 {
-    color: aqua;
-    background-color: rgb(0, 02, 255);
-    /* float:left; */
+    background-color: rgb(2, 160, 68);
+    color: black;
+}
+
+.mark
+{
+    color: rgb(42, 146, 98);
+    background-color: rgb(114, 41, 77);
+    border: 2px solid rgb(61, 54, 54);
+    margin: 5px;
+    text-align: center;
+    opacity: 20px;
+    font-size: 50px;
     
 }
 
-/* .h1-class
+.button
 {
- color: red;
+    background-color:rgb(38, 94, 38) ;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    /* color: blueviolet; */
 }
-.h2-class
+.button::after
 {
-    color: red;
+    overflow: hidden;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: blueviolet;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
-.h3-class
+.button:hover::after{
+    transform: scale(1);
+}
+
+.hed
+{ text-align: center;
+    text-decoration: underline;
+}
+.para
+   {
+    text-align: left;
+    color: #dc143c;
+    font-weight: bold;
+    font-family: cursive;    
+}
+
+.divv-1
 {
-    color: red;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* *{
+    color: aliceblue
+
 } */
+.navbar1
+{
+    height: 60px;
+    background-color: black;
+}
+.abc1
+{
+    font-size: 25px;
+    color: #f08810;   
+}
+/* button{
+    color: #f08810;
+} */
+/* a{
+    margin-right: 200px;
+    text-decoration: none;
+    } */
+.img1
+{
+    color: #f08810;
+    font-size: 70px;
+    text-align: center;
+    background-image: url('imggg.jpg');
+    font-size: 170px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.contentbox
+{
+    width: 100px;
+    height: 100px;
+    background-color: #dc143c;
+    border: 2px black solid;
+    display: inline-block;
+}
+#con
+{
+    height: 500px;
+}
+/* .IMG2
+{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline black;
+    background-image: url('imggg.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+} */
+.color1
+{
+    width: 700px;
+    height: 500px;
+    /* background: 
+    linear-gradient(red,blueviolet); */
+    background-image: url('imggg.jpg');
+    background-repeat: no-repeat;
+    image-rendering: cover;
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: #dc143c;
+    display: flex;
+    justify-content: center;
+}
+.box2
+{
+    height: 50px;
+    width: 50px;
+    background-color: black ;
+}
+.anchor
+{
+    font-size: 25px;
+    color: #f08810;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+.divvv
+{   
+    height: 100px;
+    background-color: rgb(27, 25, 25);
+
+}
+.f1
+{
+    position: sticky;
+    /* left: 40px; */
+    background-color: #f08810;
+    color: #181717;
+    height: 150px;
+    width: 150px;
+}
+
+ 
