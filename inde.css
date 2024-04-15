@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(204, 182, 120);
+}
+#a{
+    color: pink;
+}
+#w{
+    text-align: center;
+    text-decoration:line-through;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+    font-size: 40px;
+}
+h3{
+    font-weight: 100;
+    font-size: 40px;
+    -webkit-text-stroke: 5px;
+    text-transform: uppercase   ;
+}
+h4{
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    /* text-decoration-line: underline overline; */
+    background-color: pink;
+}
+.nav{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    font-size: 23px;
+}
+a{
+    margin-right: 200px;
+}
+#but-nav{
+    color: rgb(172, 172, 86);
+    background-color: green;
+}
+
+#name1 {
+    background-image: url(imggg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150px;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.parent-div{
+    border: 2px black solid;
+    display: inline-block;
+    margin-left: 200px;
+    text-align: center;
+}
+.box1{
+    height: 200px;
+    /* opacity: 0.4; */
+    width: 200px;
+    background-color: aqua;
+    display: inline-block;
+    margin-right: 30px;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(146, 190, 70);
+    display: inline-block;
+    margin-right: 30px;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(63, 34, 135);
+    display: inline-block;
+    margin-right: 30px;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(196, 121, 40);
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/* .box{
+    height: 150px;
+    width: 200px;
+    background-image: url(imggg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    right: 0%;
+} */
+
+.container{
+    height: 450px;
+    width: 1000px;
+    border: 2px solid #000000;
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+    display: flex;  
+    /* flex-direction: column;  */
+    /* align-items: flex-end; */
+    justify-content: center;     
+    /* flex ko hamesha container mai lena hai with direction (row or column) and add justify content center */
+
+
+
+    /* flex-wrap: wrap; */
+    /* flex wrap mai hamesha align items ko use karna h  and usme align items and justify content dono center rakhna h*/
+    /* phir usme jo box ya div ko aage piche uper niche karna h to (align content) ka istemal hoga */
+    align-items: flex-start;             /* align items se boxes k beech mai space ayegi and align content se beech ki space nhi ayegi */
+    /* align-content: flex-end; */
+    
+} 
+div{
+    height: 100px;
+    width: 100px;
+    margin: 0;padding: 0;
+    text-align: center;
+}
+.box01{
+    background-color: aqua;
+    
+}
+.box02{
+    background-color: yellow;
+    height: 75px;
+}
+.box03{
+    background-color: brown;
+    /* flex-grow: 1; */
+}
+.box04{
+    background-color: crimson;
+    height: 200px;
+    /* flex-shrink: 2; */
+}
+.box05{
+    background-color: springgreen;
+    /* align-self: flex-end;    */
+    /* align self hum isiliye use karte taki ek particular box ko flex k 
+    start ya end mai le sake matlab ek individual box ko hum kaha bhi place kar sakte */
+}
