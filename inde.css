@@ -43,9 +43,7 @@ h4{
     width: 100%;
     font-size: 23px;
 }
-a{
-    margin-right: 200px;
-}
+
 #but-nav{
     color: rgb(172, 172, 86);
     background-color: green;
@@ -131,12 +129,12 @@ a{
     /* align-content: flex-end; */
     
 } 
-div{
+/* div{
     height: 100px;
     width: 100px;
     margin: 0;padding: 0;
     text-align: center;
-}
+} */
 .box01{
     background-color: aqua;
     
@@ -147,12 +145,12 @@ div{
 }
 .box03{
     background-color: brown;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
 .box04{
     background-color: crimson;
     height: 200px;
-    /* flex-shrink: 2; */
+    flex-shrink: 2;
 }
 .box05{
     background-color: springgreen;
@@ -160,3 +158,145 @@ div{
     /* align self hum isiliye use karte taki ek particular box ko flex k 
     start ya end mai le sake matlab ek individual box ko hum kaha bhi place kar sakte */
 }
+.navb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+}
+/* .outer
+{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px black solid;
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color:orange;
+}
+@media  (max-width:300px) {
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width:400px) {
+     min matlab samjho 300px jisme 300px (300 se zyda se zyada samjho 1200px) se start hoga color dikha 
+    and maximum me zyada se zyada 300px ()300 se kum se kum pixels samjho 300px se 0px pe he dikae dega 
+    div{
+        background-color: aqua;
+    }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+    div{
+        background-color: red;
+    }
+}
+@media  (min-width:600px) {
+    div{
+        background-color: blue;
+    }
+} */
+
+
+/* .Transitions{  
+    transitions 
+    height: 300px;
+    width: 300px;
+    background-color: rgb(158, 110, 47);
+    margin-left: 30%;
+    margin-top: 100px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+    text-align: center;
+}
+transitions zyada tar hover and active k liye use ki jati hai
+.Transitions:hover{
+    background-color: blueviolet;
+    font-size: 20px;
+    transform: rotate(80deg);
+    transform: skew(90deg);
+    transform: translate(80px);
+}
+.Transitions:active{
+    background-color: yellowgreen;
+} */
+
+
+/* ANIMATIONS */
+/* .ANIMATIONS{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: blueviolet;
+    animation-name: colorChange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 10ms;
+    animation-iteration-count: infinite;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(imggg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s ease-in 10ms;
+}
+@keyframes colorChange {
+    0%{border:  5px solid #000000;}
+    10%{border: 5px green solid;}
+    20%{border: 5px solid pink;}
+    30%{border: 5px solid slateblue;}
+    40%{border: 5px solid orange;}
+    50%{border: 5px solid orchid;}
+    60%{border: 5px solid red;}
+    70%{border: 5px solid darkmagenta;}
+    80%{border: 5px solid gold;}
+    90%{border: 5px solid maroon;}
+    100%{border:5px solid purple;}
+}
+.ANIMATIONS:hover{
+    transform: scale(1.5);
+    transform: translateY(-200px);
+    transform: rotate(360deg);
+} */
+
+
+/* .loader{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    margin: 200px auto;
+    border-radius: 50%;
+    border: 20px solid green;
+    border-top: 20px solid yellow;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 20ms;
+    animation-iteration-count: infinite;
+}
+@keyframes loading {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+} */
