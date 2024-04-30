@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 56px;
+    background-color: #0F1111;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 56px;
+    width: 110px;
+}
+.logo{
+    height: 56px;
+    width: 100%;
+    background-image: url(amazon-images/amazon-logo-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hovering:hover{
+    border: 2px rgb(251, 249, 249) solid;
+    border-radius: 5px;
+}
+
+.deliver{
+    margin-left: 18px;
+    font-size: 14px;
+    opacity: 0.8;
+    /* margin-top: 12px; */
+}
+.location{
+    font-size: 15px;
+    font-weight: 700;
+}
+.ca{
+    font-size: 16px;
+}
+.nav-search{
+    height: 56px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.all{
+    height: 40px;
+    width: 10%;
+    font-size: 0.8rem;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: #0F1111;
+    background-color: #a5b0b0;
+    /* font-weight: 200; */
+}
+.search-prod{
+    height: 40px;
+    width: 80%;
+    font-size: 15px;
+}
+.search-button{
+    height: 40px;
+    width: 10%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: #0F1111;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(204, 162, 22);
+}
+.lang{
+    height: 50px;
+    width: 110px;
+}
+.laang{
+    height: 40px;
+    font-size: 0.8rem;
+    background-color: transparent;
+    color: rgb(172, 144, 107);
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.hello{
+    height: 56px;
+}
+.sign-in{
+    opacity: 0.7;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 10px;
+}
+.acc-list{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.orders{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.returns{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    opacity: 0.9;
+    color: white;
+}
+.nav-cart{
+    height: 56px;
+    width: 112px;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    font-size: 2rem;
+}
+.text-cart{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 14px 0 0 3px;
+}
+.panel{
+    height: 42px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.panel-prod p{
+    height: 40px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 1rem;
+    height: 40px;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    /* transition-delay: 1ms; */
+}
+.panel-prod{
+    width: 90%;
+}
+.hov{
+    height: 40px;
+    width: 70px;
+}
+.hov:hover{
+    font-size: 20px;
+    border: 2px white solid;
+}
+.products{
+    height: 500px;
+    width: 100%;
+    background-image: url(amazon-images/amazon-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-1{
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    -webkit-text-stroke: 1px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 68px;
+    background-color: rgb(196, 191, 184);
+    position: absolute;
+    margin-top: 300px;
+}
+.shop-sec{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(218, 204, 204);
+}
+.box{
+    /* background-color: aqua; */
+    position: relative;
+    bottom: 100px;
+    height: 390px;
+    width: 300px;
+    border: 2px solid rgb(250, 248, 248);
+    background-color: white;
+}
+.gaming{
+    height: 275px;
+    background-image: url(amazon-images/shopping.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.h-2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p-2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    -webkit-text-stroke: 1px;
+}
+.gaming1{
+    height: 275px;
+    background-image: url(amazon-images/gaddd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.gaming2{
+    height: 275px;
+    background-image: url(amazon-images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.gaming3{
+    height: 275px;
+    background-image: url(amazon-images/pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
